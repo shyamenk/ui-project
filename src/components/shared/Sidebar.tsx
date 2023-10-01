@@ -1,4 +1,4 @@
-import { Avatar, Layout, Menu } from "antd";
+import { Avatar, Layout, Menu, Space } from "antd";
 import { BiHome, BiGroup, BiTask, BiShareAlt } from "react-icons/bi";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { PiNotebookDuotone } from "react-icons/pi";
@@ -9,51 +9,44 @@ const { Sider } = Layout;
 const Sidebar = () => {
   return (
     <Layout>
-      <Sider collapsible theme="light">
+      <Sider collapsible theme="light" width={60}>
         <Menu
           mode="inline"
           items={[
             {
-              label: "",
-              key: "",
+              key: "logo",
               icon: <Avatar size={26} />,
-              style: { margin: "30px 0" },
+              style: { margin: "20px 0", paddingLeft: "15px" },
             },
             {
-              label: "Home",
               key: "home",
-              icon: <BiHome size={26} />,
-              style: { margin: "20px 0" },
+              icon: <BiHome size={20} />,
+              style: { margin: "20px 0", paddingLeft: "15px" },
             },
             {
-              label: "Groups",
               key: "groups",
-              icon: <BiGroup size={26} />,
-              style: { margin: "20px 0" },
+              icon: <BiGroup size={20} />,
+              style: { margin: "20px 0", paddingLeft: "15px" },
             },
             {
-              label: "Candidates",
               key: "candidates",
-              icon: <BiTask size={26} />,
-              style: { margin: "20px 0" },
+              icon: <BiTask size={20} />,
+              style: { margin: "15px 0", paddingLeft: "15px" },
             },
             {
-              label: "Policies",
               key: "policies",
-              icon: <BiShareAlt size={26} />,
-              style: { margin: "20px 0" },
+              icon: <BiShareAlt size={20} />,
+              style: { margin: "20px 0", paddingLeft: "15px" },
             },
             {
-              label: "Recruitment",
               key: "recruitment",
-              icon: <IoDocumentTextOutline size={26} />,
-              style: { margin: "20px 0" },
+              icon: <IoDocumentTextOutline size={20} />,
+              style: { margin: "20px 0", paddingLeft: "15px" },
             },
             {
-              label: "Assignments",
               key: "assignments",
-              icon: <PiNotebookDuotone size={26} />,
-              style: { margin: "20px 0" },
+              icon: <PiNotebookDuotone size={20} />,
+              style: { margin: "20px 0", paddingLeft: "15px" },
             },
           ]}
         ></Menu>
