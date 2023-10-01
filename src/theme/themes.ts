@@ -1,6 +1,8 @@
 export const themes = {
   token: {
-    colorPrimary: "#00b96b",
+    colorPrimary: "#1D4ED8",
   },
   components: {},
 };
+
+// Secondary; // #037092

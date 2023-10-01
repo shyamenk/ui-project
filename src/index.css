@@ -4,7 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+.menu-item-with-margin {
+  margin-bottom: 20px; 
 }
