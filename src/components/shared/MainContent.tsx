@@ -1,13 +1,21 @@
 import { Content } from "antd/es/layout/layout";
 import Header from "../ui/Header";
+import { Col, Row } from "antd";
+import TableView from "../ui/TableView";
 import SearchInput from "../ui/SearchAnd Filter";
-import { Button, Space } from "antd";
 
 const Main = () => {
   return (
-    <Content className="h-screen">
+    <Content className="max-h-full">
       <Header />
-      <SearchInput />
+      <Row gutter={20}>
+        <Col span={8}>
+          <SearchInput />
+        </Col>
+        <Col span={16}>
+          <TableView />
+        </Col>
+      </Row>
     </Content>
   );
 };

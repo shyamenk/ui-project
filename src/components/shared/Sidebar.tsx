@@ -8,7 +8,7 @@ const { Sider } = Layout;
 
 const Sidebar = () => {
   return (
-    <Layout>
+    <Layout className="bg-[#f9faff]">
       <Sider collapsible theme="light" width={60}>
         <Menu
           mode="inline"
