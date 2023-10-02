@@ -9,10 +9,10 @@ const Main = () => {
     <Content className="max-h-full">
       <Header />
       <Row gutter={20}>
-        <Col span={8}>
+        <Col span={24} lg={8}>
           <SearchInput />
         </Col>
-        <Col span={16}>
+        <Col span={24} lg={16}>
           <TableView />
         </Col>
       </Row>

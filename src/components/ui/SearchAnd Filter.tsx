@@ -46,11 +46,12 @@ const SearchInput = () => {
                 borderRadius: "10px",
                 fontSize: "bold",
               }}
+              className="font-semibold text-md mb-8"
               items={[
                 {
                   key: "PersonalInfo",
                   label: "Personal Information",
-                  icon: <HiOutlineDocumentText />,
+                  icon: <HiOutlineDocumentText size={26} />,
                   children: [
                     {
                       label: "Sub Menu",
@@ -63,7 +64,7 @@ const SearchInput = () => {
                 {
                   key: "education",
                   label: "Education",
-                  icon: <HiOutlineDocumentText />,
+                  icon: <HiOutlineDocumentText size={26} />,
                   children: [
                     {
                       label: "Sub Menu",
@@ -76,7 +77,7 @@ const SearchInput = () => {
                 {
                   key: "experience",
                   label: "Work Experience",
-                  icon: <HiOutlineDocumentText />,
+                  icon: <HiOutlineDocumentText size={26} />,
                   children: [
                     {
                       label: "Sub Menu",
@@ -89,7 +90,7 @@ const SearchInput = () => {
                 {
                   key: "activityFilter",
                   label: "Activity Filter",
-                  icon: <HiOutlineDocumentText />,
+                  icon: <HiOutlineDocumentText size={26} />,
                   children: [
                     {
                       label: "Sub Menu",
@@ -102,7 +103,7 @@ const SearchInput = () => {
                 {
                   key: "advancedFilter",
                   label: "Advanced Filter",
-                  icon: <HiOutlineDocumentText />,
+                  icon: <HiOutlineDocumentText size={26} />,
                   children: [
                     {
                       label: "Sub Menu",
