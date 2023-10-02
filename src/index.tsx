@@ -17,13 +17,12 @@ root.render(
           Select: {
             colorText: "#1D4ED8",
             colorPrimary: "black",
-            // optionFontSize: 15,
+            optionFontSize: 15,
             borderRadius: 5,
             colorBorder: "none",
-            // fontSize: 16,
+            fontSize: 16,
             fontWeightStrong: 25,
-            optionLineHeight: 3,
-            colorPrimaryBorder: "white",
+            padding: 10,
           },
         },
       }}
